@@ -11,3 +11,18 @@ body {
 .ctn h1 {
     text-align: center;
 }
+
+.ctn .hero {
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+}
+.ctn .hero .canvas_wrap {
+    height: 100%;
+    flex: 1;
+    border: 1px solid lightgreen;
+}
+
+.ctn .hero .header_wrap {
+    flex: 1;
+}
